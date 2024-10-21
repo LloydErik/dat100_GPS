@@ -70,7 +70,8 @@ public class GPSPoint {
 	
 	public String toString() {
 		
-		String str = "1 (2.0,3.0) 5.0\n";
+		String str = String.valueOf(this.time)+ "("+ String.valueOf(this.latitude) + 
+					String.valueOf(this.longitude) + ")" + String.valueOf(this.elevation);
 		
 		return str;
 		
